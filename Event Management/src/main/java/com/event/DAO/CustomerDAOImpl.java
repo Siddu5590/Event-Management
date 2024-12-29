@@ -222,11 +222,11 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@Override
-	public List<Customer> getCustomer() {
+	public List getCustomer() {
 		String query="SELECT * FROM CUSTOMER";
 		PreparedStatement ps=null;
 		ResultSet rs=null;
-		ArrayList<Customer> customer=new ArrayList<Customer>();
+		List<Customer> customer=new ArrayList<Customer>();
 		Customer c=null;
 		
 		try {

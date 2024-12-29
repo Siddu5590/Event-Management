@@ -66,10 +66,10 @@
                         <a class="nav-link" href="book.jsp">Book Event</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Status</a>
+                        <a class="nav-link" href="status.jsp">Status</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">View Profile</a>
+                        <a class="nav-link" href="viewProfile.jsp">View Profile</a>
                     </li>
                     <li class="nav-item">
                         <form action="logout" method="post">

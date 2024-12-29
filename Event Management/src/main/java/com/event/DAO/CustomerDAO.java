@@ -13,6 +13,6 @@ public interface CustomerDAO {
 	public Customer getCustomer(int id);
 	public Customer getCustomer(String mail, String password);
 	public Customer getCustomer(String mail);
-	public List<Customer> getCustomer();
+	public List getCustomer();
 	
 }

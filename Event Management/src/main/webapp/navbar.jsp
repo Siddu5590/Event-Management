@@ -36,8 +36,7 @@
                             Welcome, <%=c.getName() %>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="adminMenu">
-                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                            <li><a class="dropdown-item" href="viewProfile.jsp">View Profile</a></li>
                             <li class="dropdown-item">
                         	<form action="logout" method="post">
                         	<input type="submit" name="logout" id="logout" value="Logout" class="btn btn-outline-danger logout-btn">
